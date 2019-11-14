@@ -1,5 +1,5 @@
 {
-    "name": "zizaco/entrust",
+    "name": "hpakdaman/entrust",
     "description": "This package provides a flexible way to add Role-based Permissions to Laravel",
     "keywords": ["laravel","illuminate","auth","roles","acl","permission"],
     "license": "MIT",
@@ -44,10 +44,10 @@
     "extra":{
         "laravel":{
             "providers":[
-                "Zizaco\\Entrust\\EntrustServiceProvider"
+                "hpakdaman\\Entrust\\EntrustServiceProvider"
             ],
             "aliases":{
-                "Entrust": "Zizaco\\Entrust\\EntrustFacade"
+                "Entrust": "hpakdaman\\Entrust\\EntrustFacade"
             }
         }
     },
